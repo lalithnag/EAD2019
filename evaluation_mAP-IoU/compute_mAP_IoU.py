@@ -30,10 +30,10 @@ if debug:
     resultsfolder ='../mAP-IoU_testdata/results'
     jsonFileName = 'detection_test_emptyPredictions.json'
 else:    
-    predictfolder = sys.argv[1]
-    gtfolder = sys.argv[2]
-    resultsfolder = sys.argv[3]
-    jsonFileName = sys.argv[4]
+    predictfolder = '/home/lalith/data/Lalith/01_EAD2019/01_detection/test_results_006/test_predicted_006'
+    gtfolder = '/home/lalith/data/Lalith/01_EAD2019/01_detection/test'
+    resultsfolder = '/home/lalith/data/Lalith/01_EAD2019/01_detection/test_results_006'
+    jsonFileName = '/home/lalith/data/Lalith/01_EAD2019/01_detection/test_results_006/detection_test_predictions.json'
 
 """
 Series of helper functions. 

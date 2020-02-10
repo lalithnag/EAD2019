@@ -92,10 +92,10 @@ if __name__=="__main__":
     """
     import pylab as plt 
     
-    imgfile = '../annotationImages_and_labels/00003.jpg'
-    bboxfile = '../annotationImages_and_labels/00003.txt'
+    imgfile = '/home/lalith/data/Lalith/01_EAD2019/01_detection/00_raw/ead2019_trainingData-I/EAD2019_challengeData_phase-I/00013_batch2.jpg'
+    bboxfile = '/home/lalith/data/Lalith/01_EAD2019/01_detection/00_raw/ead2019_trainingData-I/EAD2019_challengeBBoxAnnotations_phase-I/00013_batch2.txt'
     
-    classfile = '../class_list.txt'
+    classfile = '/home/lalith/data/Lalith/01_EAD2019/01_detection/ead_classes.txt'
     classes = read_obj_names(classfile)
     
     img = read_img(imgfile)
